@@ -29,7 +29,7 @@ class _LoadingScreenState extends State<LoadingScreen> {
   @override
   Widget build(BuildContext context) {
     return const Scaffold(
-      body: SpinKitPouringHourGlass(
+      body: SpinKitPouringHourGlassRefined(
         color: Colors.white,
         size: 100.0,
       ),
